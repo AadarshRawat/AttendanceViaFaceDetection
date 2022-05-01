@@ -1,0 +1,137 @@
+a {
+  text-decoration: none;
+}
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.dropdown-toggle {
+
+  outline: 0;
+}
+
+img {
+  height: 40%;
+  width: 40%;
+  object-fit: contain;
+}
+
+.header-css {
+  z-index: 2;
+  left: 0;
+  -webkit-box-shadow: 0px 2px 109px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 109px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 109px -10px rgba(0, 0, 0, 0.75);
+  width: 100vw;
+  position: fixed;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+.comp-img {
+  width: 2.4 em;
+  top: 0;
+}
+
+
+.content-cont {
+ padding-top: 200px;
+ margin: 0;
+}
+
+.main-header{
+  font-size: 40px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(to right, #434343, #000000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.button-cont{
+padding-top: 100px;
+  text-align: center;
+}
+
+.button{
+
+margin-right: 20px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 575;
+
+}
+.py-3 {
+position: fixed;
+bottom:0;
+padding-bottom: 2px !important;
+padding-top: 2px !important;
+margin-bottom: 0 !important;
+background-color: #434343;
+font-size: 10px;
+color:azure;
+}
+
+
+/* ----------------------Media Commands------------- */
+@media screen and (max-width: 900px) {
+  .container-fluid {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .main-header{
+    padding: 0 15px 0 15px;
+    font-size: 50px;
+  }
+  
+}
+
+
+/* ----------------------GIF Background------------- */
+body {
+
+  overflow-x: hidden;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  margin: 0 !important;
+  padding: 0 !important;
+
+ 
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
